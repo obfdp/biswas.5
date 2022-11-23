@@ -1,4 +1,4 @@
-nclude "oss.h"
+#include "oss.h"
 
 typedef struct {
   long mtype;
@@ -36,7 +36,7 @@ int main(int argc, char * argv[]) {
   procList1 = NULL;
   procList2 = NULL;
 
-  int childPid;
+int childPid;
   int timeElapsed = 2;
   int sharedRes;
   int verbose = 1; /* 1: verbose on */

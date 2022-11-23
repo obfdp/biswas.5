@@ -1,4 +1,4 @@
-nclude "oss.h"
+#include "oss.h"
 
 static volatile sig_atomic_t proc_CmpltFlg = 0;
 
